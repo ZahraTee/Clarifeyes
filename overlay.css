@@ -1,0 +1,39 @@
+.ce-container{
+	position: relative;
+    display: inline-block;
+}
+
+.ce-container .overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-weight:600;
+}
+
+.ce-container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.word-button {
+	background-color: #00DBFF;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+}
+
+.word-button button{
+	border:none;
+	text-align: center;
+	border-radius: 20px;
+	background-color: white;
+	color:#00DBFF;
+	padding: 0px 5px;
+	margin-right: 10px;
+}

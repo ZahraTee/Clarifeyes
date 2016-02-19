@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Click to execute",
+  "description": "Narrating the visual web for the visually impaired.",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "content_scripts": [
+  {
+   "matches": ["http://*/*"],
+    "js": ["jquery.min.js", "scrape.js"],
+    "css": ["overlay.css"]
+  }
+],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
