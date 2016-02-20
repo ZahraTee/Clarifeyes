@@ -1,8 +1,6 @@
 # Clarifeyes
 ###A Chrome extension narrating the visual web for the visually impaired.
 
-![icon](icon_smaller.png)
-
 Clarifeyes improves the accessibility of image content by automatically adding keyword to the alt tags of img attributes in a webpage's HTML, allowing this to be read aloud by screenreaders.
 
 What's more, it also allows the sighted to help to improve the service for visually-impaired users and increase its accuracy by allowing them to remove irrelevant tags by clicking on them. This sends feedback to Clarifai, which is used to train the models providing the results!
